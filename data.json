@@ -1,0 +1,58 @@
+{
+    "callsign": "BH6RIZ",
+    "name": "Chen",
+    "operatorLevel": "A级",
+    "cqZone": 24,
+    "ituZone": 44,
+    "grid": "OM62",
+    "location": {
+        "country": "中国",
+        "province": "湖北",
+        "city": "襄阳"
+    },
+    "description": "A级业余无线电操作员 | 追求通联的乐趣，期待空中相遇",
+    "bands": {
+        "uv": {
+            "name": "UV段",
+            "description": "常用频段，适合本地通联",
+            "frequencies": ["144 MHz", "430 MHz"]
+        },
+        "hf": {
+            "name": "短波",
+            "description": "远程通信，探索电离层",
+            "frequencies": ["HF Bands"]
+        }
+    },
+    "repeaters": [
+        {
+            "name": "襄阳虎头山中继",
+            "description": "襄阳业余无线电中继台",
+            "uplink": "431.850 MHz",
+            "downlink": "439.850 MHz",
+            "tone": "88.5 Hz"
+        },
+        {
+            "name": "湖北业余无线电链路",
+            "description": "模拟链路"
+        }
+    ],
+    "equipment": {
+        "handheld": [
+            "威诺 VR-N76",
+            "泉盛 UVK6"
+        ],
+        "antenna": [
+            "华鸿 518+",
+            "JYR U7V4+"
+        ]
+    },
+    "social": {
+        "qrz": "https://www.qrz.com/db/BH6RIZ",
+        "email": "bh6riz@outlook.com"
+    },
+    "website": {
+        "title": "Ham Hero - 无线电爱好者个人主页",
+        "version": "1.0.0",
+        "built": "20260326"
+    }
+}
